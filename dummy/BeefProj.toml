@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", beef-interop-lib = "*"}
+
+[Project]
+Name = "dummy"
+StartupObject = "dummy.Program"

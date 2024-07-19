@@ -1,0 +1,9 @@
+FileVersion = 1
+
+[Project]
+Name = "beef-interop-lib"
+TargetType = "BeefLib"
+StartupObject = "beef_interop_lib.Program"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/../cbuild/c_lib/Debug/beef-interop-clib.lib"]
