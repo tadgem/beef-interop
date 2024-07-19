@@ -110,7 +110,10 @@ void EnumExportedFunctions(char* szFilename, void (*callback)(char*)) {
 
                             fseek(hFile, (-szNameLen) - 1, SEEK_CUR);
                             char* szName = (char*)calloc(szNameLen + 1, 1);
-                            fread(szName, szNameLen, 1, hFile);
+                            if (!fread(szName, szNameLen, 1, hFile))
+                            {
+                                continue;
+                            }
 
                             callback(szName);
 
@@ -142,7 +145,7 @@ int main()
         return EXIT_FAILURE;
     }
 
-    beef_f_func func = (beef_f_func)GetProcAddress(dll_module, "bf::beef_interop_lib::Lib::SayHello");
+    beef_f_func func = (beef_f_func)GetProcAddress(dll_module, "SayHello");
     if (!func) {
         std::cout << "could not locate the function" << std::endl;
         return EXIT_FAILURE;

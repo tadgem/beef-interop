@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 namespace beef_interop_lib;
 
 class Lib
@@ -7,6 +8,7 @@ class Lib
 	public static extern void PrintHello();
 
 	[Export]
+	[LinkName(.C)]
 	public static void SayHello()
 	{
 		PrintHello();

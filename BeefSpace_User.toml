@@ -4,10 +4,10 @@ LastPlatform = "Win64"
 RecentFilesList = ["beef-interop-lib\\src\\Lib.bf", "dummy\\src\\Program.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Attribute.bf"]
 
 [MainWindow]
-X = 505
-Y = 103
-Width = 1549
-Height = 1162
+X = 1179
+Y = 117
+Width = 1577
+Height = 1183
 ShowKind = "Maximized"
 
 [MainDockingFrame]
@@ -29,7 +29,7 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Workspace"
-TabWidth = 112.0
+TabWidth = 110.8333
 Type = "ProjectPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
@@ -37,13 +37,13 @@ IsFillWidget = true
 Permanent = true
 RequestedWidth = 150.0
 RequestedHeight = 150.0
-SizePriority = 1.0
+SizePriority = 150.0
 DefaultDocumentsTabbedView = true
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Program.bf"
-TabWidth = 92.66666
+TabWidth = 91.66666
 Type = "SourceViewPanel"
 FilePath = "dummy\\src\\Program.bf"
 CursorPos = 143
@@ -52,7 +52,7 @@ ProjectName = "dummy"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Lib.bf"
-TabWidth = 60.66667
+TabWidth = 60.83333
 Type = "SourceViewPanel"
 FilePath = "beef-interop-lib\\src\\Lib.bf"
 CursorPos = 236
@@ -73,19 +73,19 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Profile"
-TabWidth = 86.66666
+TabWidth = 85.83333
 Type = "ProfilePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Memory"
-TabWidth = 97.33334
+TabWidth = 95.83333
 Type = "MemoryPanel"
 AutoResize = "Auto_Mul8"
 RequestedWidth = 300.0
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Watch"
-TabWidth = 85.33334
+TabWidth = 85.0
 Type = "WatchPanel"
 Columns = [{Width = 300.0}, {Width = 300.0}, {Width = 300.0}]
 
@@ -103,23 +103,23 @@ Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Threads"
-TabWidth = 94.66666
+TabWidth = 93.33333
 Type = "ThreadPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Call Stack"
-TabWidth = 104.0
+TabWidth = 103.3333
 Type = "CallStackPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Immediate"
-TabWidth = 109.3333
+TabWidth = 110.0
 Type = "ImmediatePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Output"
-TabWidth = 89.33334
+TabWidth = 88.33333
 Type = "OutputPanel"
 
 [[BookmarkFolders]]
