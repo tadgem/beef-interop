@@ -1,13 +1,13 @@
 FileVersion = 1
 LastConfig = "Debug"
 LastPlatform = "Win64"
-RecentFilesList = ["beef-interop-lib\\src\\Lib.bf", "dummy\\src\\Program.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Attribute.bf"]
+RecentFilesList = ["beef-interop-lib\\src\\Lib.bf", "c_host\\main.cpp", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Attribute.bf", "dummy\\src\\Program.bf"]
 
 [MainWindow]
-X = 1179
-Y = 117
+X = 633
+Y = 0
 Width = 1577
-Height = 1183
+Height = 1039
 ShowKind = "Maximized"
 
 [MainDockingFrame]
@@ -29,7 +29,7 @@ Type = "TabbedView"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Workspace"
-TabWidth = 110.8333
+TabWidth = 111.1111
 Type = "ProjectPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
@@ -42,8 +42,16 @@ DefaultDocumentsTabbedView = true
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "main.cpp"
+TabWidth = 90.27779
+Type = "SourceViewPanel"
+FilePath = "c_host\\main.cpp"
+CursorPos = 5219
+VertPos = 3036.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Program.bf"
-TabWidth = 91.66666
+TabWidth = 92.50001
 Type = "SourceViewPanel"
 FilePath = "dummy\\src\\Program.bf"
 CursorPos = 143
@@ -52,10 +60,10 @@ ProjectName = "dummy"
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Lib.bf"
-TabWidth = 60.83333
+TabWidth = 60.55556
 Type = "SourceViewPanel"
 FilePath = "beef-interop-lib\\src\\Lib.bf"
-CursorPos = 236
+CursorPos = 227
 ProjectName = "beef-interop-lib"
 
 [[MainDockingFrame.DockedWidgets]]
@@ -71,29 +79,30 @@ SizePriority = 0.4874902
 Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
-Active = true
 TabLabel = "Profile"
-TabWidth = 85.83333
+TabWidth = 84.72223
 Type = "ProfilePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Memory"
-TabWidth = 95.83333
+TabWidth = 97.22224
 Type = "MemoryPanel"
 AutoResize = "Auto_Mul8"
 RequestedWidth = 300.0
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
 TabLabel = "Watch"
-TabWidth = 85.0
+TabWidth = 84.72223
 Type = "WatchPanel"
-Columns = [{Width = 300.0}, {Width = 300.0}, {Width = 300.0}]
+Columns = [{Width = 360.0}, {Width = 360.0}, {Width = 360.0}]
+Items = [""]
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Auto"
-TabWidth = 76.66666
+TabWidth = 77.08334
 Type = "AutoWatchPanel"
-Columns = [{Width = 300.0}, {Width = 300.0}, {Width = 300.0}]
+Columns = [{Width = 360.0}, {Width = 360.0}, {Width = 360.0}]
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets]]
 RequestedWidth = 375.0
@@ -103,24 +112,29 @@ Type = "TabbedView"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Threads"
-TabWidth = 93.33333
+TabWidth = 93.05556
 Type = "ThreadPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Call Stack"
-TabWidth = 103.3333
+TabWidth = 102.0833
 Type = "CallStackPanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 TabLabel = "Immediate"
-TabWidth = 110.0
+TabWidth = 109.0278
 Type = "ImmediatePanel"
 
 [[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
 Active = true
 TabLabel = "Output"
-TabWidth = 88.33333
+TabWidth = 89.58334
 Type = "OutputPanel"
+
+[[Breakpoints]]
+File = "beef-interop-lib\\src\\Lib.bf"
+Line = 14
+Column = 0
 
 [[BookmarkFolders]]
 Title = ""

@@ -8,3 +8,4 @@ StartupObject = "beef_interop_lib.Program"
 [Configs.Debug.Win64]
 BuildKind = "DynamicLib"
 LibPaths = ["$(ProjectDir)/../cbuild/c_lib/Debug/beef-interop-clib.lib"]
+
